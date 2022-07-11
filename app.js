@@ -16,18 +16,23 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
 
+// Guide Code
+// app.get("/", function(req, res){
+
+//   Post.find({}, function(err, posts){
+//     res.render("home", {
+//       startingContent: homeStartingContent,
+//       posts: posts
+//     });
+//   });
+// });
+
+
 // app.get = the home route
+// home route (/), req, res = callback function
 app.get("/", function(req, res){
-
-  Post.find({}, function(err, posts){
-    res.render("home", {
-      startingContent: homeStartingContent,
-      posts: posts
-    });
-  });
+  res.render("home");
 });
-
-
 
 
 
