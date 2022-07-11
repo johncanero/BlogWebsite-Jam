@@ -35,7 +35,6 @@ app.get("/", function(req, res){
 });
 
 
-
 // app.get = about
 app.get("/about", function(req, res){
       res.render("about", {aboutContent: aboutContent});
@@ -46,6 +45,10 @@ app.get("/about", function(req, res){
 app.get("/contact", function(req, res){
       res.render("contact", {contactContent: contactContent});
 });
+
+
+
+
 
 
 
