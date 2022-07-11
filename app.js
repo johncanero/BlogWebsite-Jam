@@ -41,7 +41,7 @@ app.get("/compose", function(req, res){
       res.render("compose");
 });
 
-
+// POST METHOD
 // posting title and content in /compoase page, bodyParser
 app.post("/compose", function(req, res){
       console.log(req.body.postTitle)
