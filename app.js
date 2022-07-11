@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
 
-
+// GET METHOD
 // app.get = the home route (root)
 // home route (/), function (req, res) = callback function, render, {key: value} 
 app.get("/", function(req, res){
