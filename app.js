@@ -16,6 +16,16 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
 
+// app.get = the home route
+app.get("/", function(req, res){
+
+  Post.find({}, function(err, posts){
+    res.render("home", {
+      startingContent: homeStartingContent,
+      posts: posts
+    });
+  });
+});
 
 
 
