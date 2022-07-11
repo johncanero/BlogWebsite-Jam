@@ -29,9 +29,9 @@ app.use(express.static("public"));
 
 
 // app.get = the home route
-// home route (/), req, res = callback function
+// home route (/), function (req, res) = callback function, render, {key: value} 
 app.get("/", function(req, res){
-  res.render("home");
+      res.render("home", {startingContent: homeStartingContent,});
 });
 
 
