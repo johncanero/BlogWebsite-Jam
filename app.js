@@ -16,17 +16,6 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
 
-// Guide Code
-// app.get("/", function(req, res){
-
-//   Post.find({}, function(err, posts){
-//     res.render("home", {
-//       startingContent: homeStartingContent,
-//       posts: posts
-//     });
-//   });
-// });
-
 
 // app.get = the home route (root)
 // home route (/), function (req, res) = callback function, render, {key: value} 
@@ -45,6 +34,7 @@ app.get("/about", function(req, res){
 app.get("/contact", function(req, res){
       res.render("contact", {contactContent: contactContent});
 });
+
 
 
 
