@@ -80,6 +80,8 @@ app.get("/posts/:postName", function(req, res){
 
     if (storedTitle === requestedTitle) {
       console.log("Match found");
+    } else {
+      console.log("Not a Match");
     }
   });
 });
