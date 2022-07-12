@@ -54,12 +54,12 @@ app.get("/compose", function(req, res){
 // posting title and content in /compoase page, bodyParser
 app.post("/compose", function(req, res){
       // console.log(req.body.postTitle)
-      // console.log(req.body.postBody)
+      // console.log(req.body.postContent)
 
       // Javascript Object
       const post = {
           title: req.body.postTitle,
-          content: req.body.postBody
+          content: req.body.postContent
       };
 
       // Push the Post
