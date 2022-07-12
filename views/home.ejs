@@ -1,13 +1,21 @@
 <%- include("partials/header") %>
 
-<h1>Home</h1>
+    <h1>Home</h1>
 
-<!-- include startingContent -->
-<div class="justifyContent">
-    <p><%= startingContent %></p>
-</div>
+    <!-- include startingContent -->
+    <div class="justifyContent">
+        <p><%= startingContent %></p>
+    </div>
 
-<!-- console within -->
-<%- console.log(posts) %>
+    <!-- console within -->
+    <%- console.log(posts) %>
+
+    <!-- for loop -->
+    <% for (var i=0; i<posts.length; i++) { %>
+       <% console.log(posts[i].title) %>
+    <% } &>
+
+
+
 
 <%- include("partials/footer") %>
