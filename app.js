@@ -71,7 +71,6 @@ app.post("/compose", function(req, res){
 
 //clicking on readmore on the home screen bring up the post with the id on the url (https://expressjs.com/en/guide/routing.html)
 app.get("/posts/:postName", function(req, res){
-
   // apply lodash = lowercase
   const requestedTitle = _.lowerCase(req.params.postName);
   // console.log(req.params.postName); = route parameters
@@ -81,9 +80,7 @@ app.get("/posts/:postName", function(req, res){
     const storedTitle = _.lowerCase(post.title);
 
     if (storedTitle === requestedTitle) {
-      console.log("Match found");
-    } else {
-      console.log("Not a Match");
+      
     }
   });
 });
@@ -92,7 +89,14 @@ app.get("/posts/:postName", function(req, res){
 
 
 
-
+app.get('/posts/:postName', function(req, res){
+  const requestedTitle = _.lowerCase(req.params.postName);
+  for(var i = 0; i < posts.length; i++){
+    if(_.lowerCase(posts[i].title) === requestedTitle){
+      res.render("post.ejs", {postTitle: posts[i].title, postContent: posts[i].content});
+    }
+  }
+});
 
 
 
