@@ -71,7 +71,7 @@ app.post("/compose", function(req, res){
 
 //clicking on readmore on the home screen bring up the post with the id on the url (https://expressjs.com/en/guide/routing.html)
 app.get("/posts/:postName", function(req, res){
-  // apply lodash = lowercase
+  // apply npm lodash = lowercase
   const requestedTitle = _.lowerCase(req.params.postName);
   // console.log(req.params.postName); = route parameters
 
