@@ -25,7 +25,10 @@ let posts = [];
 // app.get = the home route (root)
 // home route (/), function (req, res) = callback function, render, {key: value} 
 app.get("/", function(req, res){
-      res.render("home", {startingContent: homeStartingContent,});
+      res.render("home", {
+        startingContent: homeStartingContent,
+        posts: posts
+      });
 });
 
 
