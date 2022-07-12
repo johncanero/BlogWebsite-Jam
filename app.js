@@ -17,7 +17,8 @@ app.use(express.static("public"));
 
 
 // Global Variable
-const posts = [];
+// let = safer version
+let posts = [];
 
 
 // GET METHOD
