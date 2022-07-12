@@ -72,7 +72,7 @@ app.post("/compose", function(req, res){
 app.get("/posts/:postName", function(req, res){
 
   const requestedTitle = req.params.postName;
-  // console.log(req.params.postName);
+  // console.log(req.params.postName); = route parameters
 
   // For Each (Javascript) Array
   posts.forEach(function(post) {
