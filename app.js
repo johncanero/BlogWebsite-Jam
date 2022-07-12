@@ -74,7 +74,7 @@ app.get("/posts/:postName", function(req, res){
   const requestedTitle = req.params.postName;
   // console.log(req.params.postName);
 
-  // For Each (Javascript)
+  // For Each (Javascript) Array
   posts.forEach(function(post) {
     const storedTitle = post.title;
 
