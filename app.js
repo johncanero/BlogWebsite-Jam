@@ -54,12 +54,12 @@ app.get("/compose", function(req, res){
 // posting title and content in /compoase page, bodyParser
 app.post("/compose", function(req, res){
       // console.log(req.body.postTitle)
-      // console.log(req.body.postContent)
+      // console.log(req.body.postBody)
 
       // Javascript Object
       const post = {
           title: req.body.postTitle,
-          content: req.body.postContent
+          content: req.body.postBody
       };
 
       // Push the Post
@@ -80,24 +80,15 @@ app.get("/posts/:postName", function(req, res){
     const storedTitle = _.lowerCase(post.title);
 
     if (storedTitle === requestedTitle) {
-      
+      res.render("post", {
+        title: post.title,
+        content: post.content
+      });
     }
   });
-  
+
 });
 
-
-
-
-
-app.get('/posts/:postName', function(req, res){
-  const requestedTitle = _.lowerCase(req.params.postName);
-  for(var i = 0; i < posts.length; i++){
-    if(_.lowerCase(posts[i].title) === requestedTitle){
-      res.render("post.ejs", {postTitle: posts[i].title, postContent: posts[i].content});
-    }
-  }
-});
 
 
 
