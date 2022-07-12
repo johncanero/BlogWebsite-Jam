@@ -7,19 +7,11 @@
         <p><%= startingContent %></p>
     </div>
 
-    <!-- for Each, Outputs the Value Tag -->
+    <!-- for Each, Outputs the Value Tag (Scriplet) -->
     <% posts.forEach(function(post) { %>
         <h1><%=post.title%></h1>
         <p><%=post.content%></p>
     <% }) %>
 
-
-
-    
-<%posts.forEach(function(post) {%>
-    <h1><%=post.title%></h1>
-    <p><%=post.content.substring(0, 100)+" ..."%> <a href= "/posts/<%=post.title%>" >Read More</a></p>
- <%});%>
-   
  
 <%- include("partials/footer") %>
