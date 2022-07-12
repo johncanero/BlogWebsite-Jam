@@ -44,9 +44,16 @@ app.get("/compose", function(req, res){
 // POST METHOD
 // posting title and content in /compoase page, bodyParser
 app.post("/compose", function(req, res){
-      console.log(req.body.postTitle)
-      console.log(req.body.postBody)
+      // console.log(req.body.postTitle)
+      // console.log(req.body.postBody)
+
+      // Javascript Object
+      const post = new Post({
+          title: req.body.postTitle,
+          content: req.body.postBody
+      });
 });
+
 
 
 
