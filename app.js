@@ -16,11 +16,16 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
 
+// Global Variable
+const posts = [];
+
+
 // GET METHOD
 // app.get = the home route (root)
 // home route (/), function (req, res) = callback function, render, {key: value} 
 app.get("/", function(req, res){
       res.render("home", {startingContent: homeStartingContent,});
+      console.log(posts);
 });
 
 
@@ -48,10 +53,15 @@ app.post("/compose", function(req, res){
       // console.log(req.body.postBody)
 
       // Javascript Object
-      const post = new Post({
+      const post = {
           title: req.body.postTitle,
           content: req.body.postBody
-      });
+      };
+
+      // Push the Post
+      posts.push(post);
+      // Redirect to Home Page
+      res.redirect("/");
 });
 
 
