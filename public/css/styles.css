@@ -1,7 +1,18 @@
-.container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
+
+/* Navbar */
+.titlePadding {
+    padding-left: 9.8em;
 }
+
+.titlePadding2 {
+    padding-right: 15em;
+}
+
+.container-fluid {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .navbar {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -11,10 +22,12 @@
     font-size: 12px;
     letter-spacing: 5px;
 }
-.navbar-nav  li a:hover {
-    color: #1abc9c !important;
-}
 
+/* .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+} */
+
+/* Footer */
 .footer-padding {
 	padding-bottom: 60px;
 }
@@ -33,3 +46,5 @@
 	font-size: 12px;
   color: #fff;
 }
+
+
