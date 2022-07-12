@@ -68,6 +68,11 @@ app.post("/compose", function(req, res){
 });
 
 
+//clicking on readmore on the home screen bring up the post with the id on the url
+app.get("/posts/:postName", function(req, res){
+  console.log(req.params.postName);
+});
+
 
 
 
