@@ -1,7 +1,7 @@
 
 /* Navbar */
 .titlePadding {
-    padding-left: 12.5em;
+    padding-left: 13.1em;
 }
 
 .titlePadding2 {
@@ -25,8 +25,12 @@
 
 /* Content */
 .container {
-    max-width: 1200px;
+    max-width: 1180px;
     margin-top: 1em;
+}
+
+.justifyContent {
+    text-align: justify;
 }
 
 
