@@ -79,6 +79,7 @@ app.get("/posts/:postName", function(req, res){
   posts.forEach(function(post) {
     const storedTitle = _.lowerCase(post.title);
 
+    // stric equality
     if (storedTitle === requestedTitle) {
       res.render("post", {
         title: post.title,
