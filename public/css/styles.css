@@ -34,6 +34,31 @@
 }
 
 
+/* Links */
+
+/* unvisited link */
+a:link {
+    color: #000000;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #000000;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #888888;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+
+
+
 /* .navbar-nav  li a:hover {
     color: #1abc9c !important;
 } */
