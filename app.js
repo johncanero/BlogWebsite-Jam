@@ -11,7 +11,7 @@ const homeStartingContent = "I created this journal guided by Angela Yu while st
 
 const aboutContent = "Hey! Welcome to my journal. You can call me Jam! You could also create your own, notebook or digitally, taking notes and thoughts about your life.";
 
-const aboutContent2 ="By the way, I am currently in my Senior Year as a BS Architecture Student. Yup! Also at the side, I am studying Web Development and exploring the wonders of technology. You could visit my Github Page and Personal Website I created at the links below.";
+const aboutContent2 ="By the way, I am currently in my Senior Year as a BS Architecture Student. Yup! Also at the side, I am studying Web Development and exploring the wonders of technology. You could visit my Personal Website I creaed and Github Profile where you could see more of my projects at the links below:";
 
 const contactContent = "You could contact me here at the link below. 📞 Just navigate to the contact page below or message on my social media platforms. Thank you and let's keep on building! 🏂";
 
