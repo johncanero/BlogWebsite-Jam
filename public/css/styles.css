@@ -86,6 +86,21 @@ p {
 }
 
 
+/* form */
+
+.formFontSize {
+    font-size: 3.2em;
+}
+
+.buttonFontSize {
+    margin-top: 0.5em;
+    font-size: 2em;
+}
+
+.formPadding {
+    padding-bottom: 0.5em;
+}
+
 
 /* Images */
 .johncaneroLogo {

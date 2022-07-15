@@ -9,14 +9,16 @@
 
     <form class="" action="/compose" method="post">
       <div class="mb-3">
-        <label for="postTitle" class="form-label fw-bold">Title</label>
+        <label for="postTitle" class="form-label fw-semibold formFontSize">Title</label>
+
         <!-- name: postTitle -->
-        <input name="postTitle" type="title" class="form-control" id="postTitle" aria-describedby="postTitle">
-        <label for="postBody" class="form-label fw-bold">Post</label>
+        <input name="postTitle" type="title" class="form-control formPadding fs-1" id="postTitle" aria-describedby="postTitle">
+
+        <label for="postBody" class="form-label fw-semibold formFontSize">Post</label>
         <!-- name: postBody -->
-        <textarea name="postBody" class="form-control" cols="155" rows="5"></textarea>
+        <textarea name="postBody" class="form-control fs-1" cols="155" rows="10"></textarea>
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="submit" class="btn btn-primary buttonFontSize">Submit</button>
     </form>
 </div>
 
