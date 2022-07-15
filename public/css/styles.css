@@ -1,10 +1,6 @@
-/* Desktop Responsive View */
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 1025px) {
-
 /* Navbar */
 .titlePadding {
-    padding-left: 13.1em;
+    padding-left: 1em;
 }
 
 .titlePadding2 {
@@ -26,6 +22,17 @@
     letter-spacing: 5px;
 }
 
+.navbar-brand {
+    font-size: 5em;
+}
+
+
+.nav-link {
+    font-size: 3em;
+}
+
+
+
 /* Content */
 .container {
     max-width: 1180px;
@@ -35,6 +42,17 @@
 .justifyContent {
     text-align: justify;
 }
+
+
+
+/* Images */
+.johncaneroLogo {
+    padding-top: 0.15em;
+    width: 1.2em;
+}
+
+
+
 
 
 /* Links */
@@ -92,5 +110,3 @@ a:link {
 
 
     
-}
-
