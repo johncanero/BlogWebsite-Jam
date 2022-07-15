@@ -32,16 +32,11 @@
 }
 
 
-
-/* Content */
-.container {
-    max-width: 1180px;
-    margin-top: 1em;
+/* Heading-Paragraph Tags */
+p {
+    font-size: 2em;
 }
 
-.justifyContent {
-    text-align: justify;
-}
 
 
 
@@ -50,6 +45,33 @@
     padding-top: 0.15em;
     width: 1.2em;
 }
+
+
+
+
+
+
+
+/* Content */
+.container {
+    max-width: 1180px;
+    margin-top: 1em;
+}
+
+
+
+
+/* Home */
+.justifyContent {
+    text-align: justify;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.homeStyle {
+    font-size: 4em;
+}
+
 
 
 

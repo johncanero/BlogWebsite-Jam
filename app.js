@@ -7,7 +7,7 @@ const ejs = require("ejs");
 const _ = require("lodash");
 
 // contents
-const homeStartingContent = "Welcome to my Daily Journal! I am John Cañero. 👋 I am an aspiring web developer, programmer, architectural designer and visual artist. I created this journal guided by Angela Yu while studying her Web Development BootCamp Course. This would be a great journey for me to document my life and adventures especially in the world of technology.When I was learning this type of technology, it helped me to start building something on the Internet.🎨 Let's go and build something that is valuable and helpful for the world!";
+const homeStartingContent = "I created this journal guided by Angela Yu while studying her Web Development BootCamp Course. This would be a great journey for me to document my life and adventures especially in the world of technology.";
 
 const aboutContent = "Hey!👋 You can call me Jam, it is my nickname! Enjoy my daily journal and hopefully, you could also create your own, regardless of physically in a notebook or digitally, taking notes and thoughts about your life. By the way, I am currently in my Senior Year as a BS Architecture Student. 👨‍🎨 Yup! Also at the side, I am studying Web Development and exploring the wonders of technology. You could visit my Github Page and Personal Website I created at the links below.";
 
