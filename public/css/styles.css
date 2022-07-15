@@ -23,6 +23,18 @@ body {
   }
 
 
+/* Flex Container */
+.flex-container1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
 /* Navbar */
 .titlePadding {
     padding-left: 1em;
@@ -61,6 +73,14 @@ body {
 
 
 /* Heading-Par[agraph Tags */
+h1 {
+    font-size: 4.5em;
+}
+
+h4{
+    font-size: 2.8em;
+}
+
 p {
     font-size: 2.15em;
 }
@@ -74,6 +94,11 @@ p {
 }
 
 
+.johncaneroWebsite {
+    width: 45em;
+}
+
+
 
 
 /* Content */
@@ -82,6 +107,11 @@ p {
     margin-top: 1em;
 }
 
+
+.githubPadding {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
 
 
 
@@ -92,12 +122,6 @@ p {
     padding-left: 3.5em;
     padding-right: 3.5em;
 }
-
-.homeStyle {
-    font-size: 4.5em;
-}
-
-
 
 
 
