@@ -28,9 +28,7 @@ body {
     padding-left: 1em;
 }
 
-.titlePadding2 {
-    padding-right: 20em;
-}
+
 
 .container-fluid {
     padding-top: 12px;
@@ -54,10 +52,21 @@ body {
 
 .nav-link {
     font-size: 3em;
+    text-align: center;
+}
+
+.navbar-toggler {
+    margin-right: 1.5em;
+}
+
+.navbar-toggler-icon {
+    font-size: 2em;
+
 }
 
 
-/* Heading-Paragraph Tags */
+
+/* Heading-Par[agraph Tags */
 p {
     font-size: 2em;
 }
@@ -85,8 +94,9 @@ p {
 /* Home */
 .justifyContent {
     text-align: justify;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-top: 1.5em;
+    padding-left: 3.5em;
+    padding-right: 3.5em;
 }
 
 .homeStyle {
@@ -99,7 +109,6 @@ p {
 
 
 /* Links */
-
 /* unvisited link */
 a:link {
     color: #000000;
