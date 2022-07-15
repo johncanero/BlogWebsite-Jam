@@ -13,7 +13,7 @@ const aboutContent = "Hey! Welcome to my journal. You can call me Jam! You could
 
 const aboutContent2 ="By the way, I am currently in my Senior Year as a BS Architecture Student. Yup! Also at the side, I am studying Web Development and exploring the wonders of technology.";
 
-const contactContent = "You could contact me here at the link below. 📞 Just navigate to the contact page below or message on my social media platforms. Thank you and let's keep on building! 🏂";
+const contactContent = "You could contact me here at the link below. Just navigate to the contact page below or message on my social media platforms. Thank you and let's keep on building!";
 
 // essential: express
 const app = express();
