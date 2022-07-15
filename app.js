@@ -9,7 +9,9 @@ const _ = require("lodash");
 // contents
 const homeStartingContent = "I created this journal guided by Angela Yu while studying her Web Development BootCamp Course. This would be a great journey for me to document my life and adventures especially in the world of technology.";
 
-const aboutContent = "Hey!👋 You can call me Jam, it is my nickname! Enjoy my daily journal and hopefully, you could also create your own, regardless of physically in a notebook or digitally, taking notes and thoughts about your life. By the way, I am currently in my Senior Year as a BS Architecture Student. 👨‍🎨 Yup! Also at the side, I am studying Web Development and exploring the wonders of technology. You could visit my Github Page and Personal Website I created at the links below.";
+const aboutContent = "Hey!👋 You can call me Jam, it is my nickname! Enjoy my daily journal and hopefully, you could also create your own, regardless of physically in a notebook or digitally, taking notes and thoughts about your life.";
+
+const aboutContent2 ="By the way, I am currently in my Senior Year as a BS Architecture Student. 👨‍🎨 Yup! Also at the side, I am studying Web Development and exploring the wonders of technology. You could visit my Github Page and Personal Website I created at the links below.";
 
 const contactContent = "You could contact me here at the link below. 📞 Just navigate to the contact page below or message on my social media platforms. Thank you and let's keep on building! 🏂";
 
@@ -41,7 +43,7 @@ app.get("/", function(req, res){
 
 // app.get = about
 app.get("/about", function(req, res){
-      res.render("about", {aboutContent: aboutContent});
+      res.render("about", {aboutContent: aboutContent, aboutContent2: aboutContent2});
 });
 
 
