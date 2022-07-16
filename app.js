@@ -54,13 +54,13 @@ app.get("/contact", function(req, res){
 
 
 // app.get compose
-app.get("/compose", function(req, res){
-      res.render("compose");
+app.get("/composeJam", function(req, res){
+      res.render("composeJam");
 });
 
 // POST METHOD
 // posting title and content in /compoase page, bodyParser
-app.post("/compose", function(req, res){
+app.post("/composeJam", function(req, res){
       // console.log(req.body.postTitle)
       // console.log(req.body.postBody)
 
