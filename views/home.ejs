@@ -17,15 +17,17 @@
         <br>
         <p> When I was learning this type of technology, it helped me to start building something on the Internet Let's go and build something that is valuable and helpful for the world!</p>
         <hr>
+
+            
+        <!-- for Each, Outputs the Value Tag (Scriplet) -->
+        <% posts.forEach(function(post) { %>
+            <h1><%=post.title%></h1>
+            <!-- Truncate a string -->
+            <p><%=post.content.substring(0, 100) + " ..." %>
+                <a href="/posts/<%=post.title%>">Read More</a>
+            </p>
+        <% }) %>
     </div>
 
-    <!-- for Each, Outputs the Value Tag (Scriplet) -->
-    <% posts.forEach(function(post) { %>
-        <h1><%=post.title%></h1>
-        <!-- Truncate a string -->
-        <p><%=post.content.substring(0, 100) + " ..." %>
-            <a href="/posts/<%=post.title%>">Read More</a>
-        </p>
-    <% }) %>
  
 <%- include("partials/footer") %>
