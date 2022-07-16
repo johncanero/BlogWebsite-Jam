@@ -63,6 +63,11 @@ body {
   font-size: 2em;
 }
 
+/* Compose Page */
+textarea, input {
+    font-size: 2.5em!important;
+}
+
 /* Tablet */
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -80,6 +85,12 @@ body {
   .nav-link {
     font-size: 3.5em;
   }
+
+  /* Compose Page */
+textarea, input {
+    font-size: 1.8em!important;
+}
+
 }
 
 
@@ -96,6 +107,11 @@ body {
     font-size: 3.5em;
     margin-right: 2.8em;
   }
+
+  /* Compose Page */
+    textarea, input {
+    font-size: 1.1em!important;
+}
 }
 
 
@@ -131,7 +147,7 @@ p {
 /* Desktop */
 @media only screen and (min-device-width: 1024px) {
     h1 {
-        font-size: 3em;
+        font-size: 2.8em;
       }
     
       p {
@@ -223,7 +239,7 @@ p {
 
   
   .postPadding {
-    padding-bottom: 10em;
+    padding-bottom: 12em;
 }
 
 
@@ -231,7 +247,6 @@ p {
     margin-top: 0.5em;
     font-size: 1.5em;
   }
-  
 }
 
 
@@ -254,7 +269,26 @@ p {
     width: 11em;
     margin: 2.5em 0;
   }
+
+  .formFontSize {
+    font-size: 1.5em;
+  }
+
   
+  .formPadding {
+    padding-bottom: 0.3em;
+  }
+  
+  .postPadding {
+    padding-bottom: 8em;
+}
+
+
+.buttonFontSize {
+    margin-top: 0.5em;
+    font-size: 1em;
+  }
+   
 }
 
 
