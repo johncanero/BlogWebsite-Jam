@@ -9,7 +9,7 @@ const _ = require("lodash");
 // contents
 const homeStartingContent = "I created this journal guided by Angela Yu while studying her Web Development Bootcamp Course. This would be a great journey for me to document my life and adventures especially in the world of technology.";
 
-const aboutContent = "Hey! Welcome to my journal. You can call me Jam! You could also create your own, notebook or digitally, taking notes and thoughts about your life.";
+const aboutContent = "You could also create your own, notebook or digitally, taking notes and thoughts about your life.";
 
 const aboutContent2 ="By the way, I am currently in my Senior Year as a BS Architecture Student. Yup! Also at the side, I am studying Web Development and exploring the wonders of technology.";
 
