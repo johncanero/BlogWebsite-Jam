@@ -122,6 +122,10 @@ p {
   padding-bottom: 0.5em;
 }
 
+.postPadding {
+    padding-bottom: 16em;
+}
+
 /* Images */
 .johncaneroLogo {
   padding-top: 0.15em;
@@ -181,6 +185,18 @@ p {
     width: 12.5em;
     margin: 3em 0;
   } 
+
+  
+  .postPadding {
+    padding-bottom: 10em;
+}
+
+
+.buttonFontSize {
+    margin-top: 0.5em;
+    font-size: 1.5em;
+  }
+  
 }
 
 
