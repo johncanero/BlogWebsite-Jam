@@ -55,12 +55,12 @@ app.get("/contact", function(req, res){
 
 // app.get compose
 app.get("/composeJam", function(req, res){
-      res.render("composeJam");
+      res.render("compose");
 });
 
 // POST METHOD
 // posting title and content in /compoase page, bodyParser
-app.post("/composeJam", function(req, res){
+app.post("/compose", function(req, res){
       // console.log(req.body.postTitle)
       // console.log(req.body.postBody)
 
